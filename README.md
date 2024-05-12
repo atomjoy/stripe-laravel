@@ -53,6 +53,8 @@ CASHIER_CURRENCY_LOCALE=pl_PL
 
 ## Docs
 
+- <https://laravel.com/docs/11.x/billing>
+
 - <https://docs.stripe.com/payments/payment-element>
 - <https://docs.stripe.com/payments/quickstart>
 - <https://docs.stripe.com/elements/address-element>
