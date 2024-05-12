@@ -68,3 +68,7 @@ CASHIER_CURRENCY_LOCALE=pl_PL
 - <https://docs.stripe.com/api/events/types>
 - <https://docs.stripe.com/api/payment_intents/object>
 - <https://docs.stripe.com/api/checkout/sessions/object>
+
+## Screen
+
+<img src="https://raw.githubusercontent.com/atomjoy/stripe-laravel/main/shop-page-custom-checkout.png" width="100%">
