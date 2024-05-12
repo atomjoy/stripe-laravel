@@ -1,6 +1,6 @@
 # Stripe Laravel Cashier
 
-Install laravel cashier first, and run migrations.
+Install laravel cashier first, and run migrations. Download and copy to laravel application directory.
 
 ## Stripe weebhook secret
 
