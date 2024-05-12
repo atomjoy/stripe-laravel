@@ -1,0 +1,62 @@
+{
+	"id": "pi_3PFZiVRwgqLqoMqm01fzff1B",
+	"object": "payment_intent",
+	"amount": 1001,
+	"amount_details": {
+		"tip": {}
+	},
+	"automatic_payment_methods": {
+		"allow_redirects": "always",
+		"enabled": true
+	},
+	"canceled_at": null,
+	"cancellation_reason": null,
+	"capture_method": "manual",
+	"client_secret": "pi_3PFZiVRwgqLqoMqm01fzff1B_secret_KQZRxgA79kUnIYKgKP6DIfTAf",
+	"confirmation_method": "automatic",
+	"created": 1715509999,
+	"currency": "pln",
+	"description": null,
+	"last_payment_error": null,
+	"livemode": false,
+	"next_action": {
+		"redirect_to_url": {
+			"return_url": "https://app.xx/stripe/custom-payment",
+			"url": "https://pm-redirects.stripe.com/authorize/acct_1PEZalRwgqLqoMqm/pa_nonce_Q5lFY0JtrmxPouJ33aQdPFRz6I19ugf"
+		},
+		"type": "redirect_to_url"
+	},
+	"payment_method": "pm_1PFZjIRwgqLqoMqm6pgCmiYl",
+	"payment_method_configuration_details": {
+		"id": "pmc_1PEcoSRwgqLqoMqmxWLPpYJa",
+		"parent": null
+	},
+	"payment_method_options": {
+		"card": {
+			"capture_method": "manual"
+		},
+		"paypal": {
+			"capture_method": "manual"
+		}
+	},
+	"payment_method_types": ["card", "paypal"],
+	"processing": null,
+	"receipt_email": "atomjoy.official@gmail.com",
+	"setup_future_usage": null,
+	"shipping": {
+		"address": {
+			"city": "Warszawa",
+			"country": "PL",
+			"line1": "Złota 44",
+			"line2": "Złota 44",
+			"postal_code": "00-120",
+			"state": "Województwo mazowieckie"
+		},
+		"carrier": null,
+		"name": "Kazik",
+		"phone": "",
+		"tracking_number": null
+	},
+	"source": null,
+	"status": "requires_action"
+}
