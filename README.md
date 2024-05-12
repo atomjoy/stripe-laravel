@@ -1,6 +1,7 @@
 # Stripe Laravel Cashier
 
-Install laravel cashier first, and run migrations. Download and copy to laravel application directory.
+Install laravel cashier first, and run migrations. Download and copy to laravel application directory. 
+For local domain **app.xx** enable https on server (for stripejs).
 
 ## Stripe weebhook secret
 
@@ -19,6 +20,18 @@ STRIPE_WEBHOOK_SECRET=
 
 CASHIER_CURRENCY=pln
 CASHIER_CURRENCY_LOCALE=pl_PL
+```
+
+## Create your domain webhook
+
+https://dashboard.stripe.com/test/webhooks
+
+```php
+<?php
+// Webhook url return http tatus 200 for tests
+// https://example.com/stripe/webhook.php
+
+echo "OK";
 ```
 
 ## Strip routes
